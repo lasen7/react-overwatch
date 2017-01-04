@@ -1,0 +1,25 @@
+.QuickInfo {
+  text-align: center;
+}
+
+.ui.card.QuickInfo .content {
+  border-top: none;
+}
+
+.ui.card.QuickInfo .content .header {
+  margin-top: 0.7rem;
+}
+
+.QuickInfo .content .header b {  
+  color: grey;
+}
+
+.QuickInfo .content .header span {
+  color: #103553;
+}
+
+@media (max-width: 800px) {
+  .ui.card.QuickInfo {
+    margin-top: 3.5rem;
+  }
+}

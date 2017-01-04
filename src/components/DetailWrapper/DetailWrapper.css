@@ -1,0 +1,26 @@
+.DetailWrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.DetailWrapper .ui.card {
+  margin-top: 0;
+  margin-right: 2rem;
+}
+
+.DetailWrapper .ui.card:first-child {
+  margin-left: 2rem;
+}
+
+@media (max-width: 800px) {
+  .DetailWrapper {
+    display: block;
+    width: 20rem;
+    margin: 0 auto;
+  } 
+
+  .DetailWrapper .ui.card:first-child {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,14 @@
+#Search {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+#Search .input {
+  width: 50rem;;
+}
+
+@media (max-width: 800px) {
+  #Search .input {
+    width: 90%;
+  } 
+}

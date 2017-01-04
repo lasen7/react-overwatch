@@ -1,0 +1,20 @@
+.Header {
+    background-color: #BDBDBD;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;    
+}
+
+.Header-img {  
+  width: 11rem;
+  padding-left: 1.5rem;
+}
+
+@media (max-width: 800px) {
+
+ .Header-img {
+   width: 7rem;
+   padding-left: 1.5rem;
+ }
+}

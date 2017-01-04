@@ -1,0 +1,26 @@
+.CompetitionInfo {
+  text-align: center;
+}
+
+.ui.card.CompetitionInfo .content {
+  border-top: none;
+}
+
+.ui.card.CompetitionInfo .content .header {
+  margin-top: 0.7rem;
+}
+
+.CompetitionInfo .content .header b {  
+  color: grey;
+}
+
+.CompetitionInfo .content .header span {
+  color: #103553;
+}
+
+@media (max-width: 800px) {
+  .ui.card.CompetitionInfo {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+}

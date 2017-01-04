@@ -1,0 +1,29 @@
+.UserInfo {
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.UserInfo-img {
+  width: 15rem;
+  margin: 0 auto;  
+}
+
+.ui.card.UserInfo .content {
+  border-top: none;
+}
+
+.ui.card.UserInfo .content .header {
+  margin-top: 0.7rem;
+}
+
+.ui.top.attached.label:first-child+:not(.attached).UserInfo-img {
+  margin-top: 3.5rem!important;
+}
+
+.UserInfo .content .header b {  
+  color: grey;
+}
+
+.UserInfo .content .header span {
+  color: #103553;
+}

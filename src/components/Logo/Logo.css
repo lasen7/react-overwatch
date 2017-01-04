@@ -1,0 +1,14 @@
+.Logo {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.Logo-img-flat {
+  width: 25rem;
+}
+
+@media (max-width: 800px) {
+  .Logo-img-flat {
+    width: 15rem;
+  }
+}
