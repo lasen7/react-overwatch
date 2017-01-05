@@ -4,7 +4,11 @@
 }
 
 #Search .input {
-  width: 50rem;;
+  width: 50rem;
+}
+
+.Hidden {
+  display: none;
 }
 
 @media (max-width: 800px) {

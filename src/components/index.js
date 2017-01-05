@@ -5,6 +5,7 @@ import DetailWrapper from './DetailWrapper/DetailWrapper';
 import UserInfo from './UserInfo/UserInfo';
 import QuickInfo from './QuickInfo/QuickInfo';
 import CompetitionInfo from './CompetitionInfo/CompetitionInfo';
+import Spinner from './Spinner/Spinner';
 
 export {
   Header,
@@ -13,5 +14,6 @@ export {
   DetailWrapper,
   UserInfo,
   QuickInfo,
-  CompetitionInfo
+  CompetitionInfo,
+  Spinner
 };

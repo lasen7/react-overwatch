@@ -20,3 +20,14 @@ export const getHeroes = ({
     method: 'get'
   });
 };
+
+export const getAllHeroes = ({
+  tag,
+  region = 'kr',
+  mode
+}) => {
+  return request({
+    url: `https://api.lootbox.eu/pc/${region}/${tag}/${mode}/allHeroes/`,
+    method: 'get'
+  });
+};

@@ -3,22 +3,22 @@ import './UserInfo.css';
 
 import { Card, Image, Label } from 'semantic-ui-react';
 
-const UserInfo = () => {
+const UserInfo = ({avatar, username, level}) => {
 
   return (
     <Card className="UserInfo">
       <Label attached="top">프로필</Label>
       <Image
         className="UserInfo-img"
-        src='http://semantic-ui.com/images/avatar2/large/matthew.png' />
+        src={avatar} />
       <Card.Content>
         <Card.Header>
           <b>이름: </b>
-          <span>HSPark</span>
+          <span>{username}</span>
         </Card.Header>
         <Card.Header>
           <b>레벨: </b>
-          <span>55</span>
+          <span>{level}</span>
         </Card.Header>
       </Card.Content>
     </Card>
