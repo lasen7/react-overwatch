@@ -6,5 +6,4 @@
 - redux-promise-middleware
 - redux-thunk
 
-데모:
-react-overwatch.surge.sh
+데모: http://react-overwatch.surge.sh
