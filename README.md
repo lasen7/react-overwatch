@@ -5,5 +5,6 @@
 - redux
 - redux-promise-middleware
 - redux-thunk
+- semantic-ui
 
 데모: http://react-overwatch.surge.sh
